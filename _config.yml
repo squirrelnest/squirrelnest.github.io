@@ -1,12 +1,12 @@
 # Site settings
-title: "Purple Squirrel"
-email:
+title: Purple Squirrel
+email: mikkasoft@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://squirrelnest.github.io" # the base hostname & protocol for your site
 
 twitter_username:
-github_username:
+github_username: squirrelnest
 
 # Build settings
 markdown: kramdown
