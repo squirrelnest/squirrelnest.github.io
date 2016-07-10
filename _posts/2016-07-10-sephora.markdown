@@ -1,7 +1,0 @@
----
-vimeo-id: 131690063
-vimeo-thumbnail: https://i.vimeocdn.com/video/524058702_1280.jpg
-thumbnail: 3.jpg
-title: Video Editing &amp; Motion Graphics
-client: Sephora
----

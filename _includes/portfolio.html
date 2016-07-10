@@ -1,7 +1,7 @@
 <section class="no-padding" id="portfolio">
     <div class="container-fluid portfolio-container">
         <div class="row no-gutter">
-        {% for project in site.posts %}
+        {% for project in site.data.portfolio %}
             <div class="col-lg-4 col-sm-6">
                 <a href="https://player.vimeo.com/video/{{ project.vimeo-id }}?title=0&byline=0&portrait=0" class="portfolio-box">
                   {% if project.vimeo-thumbnail %}
