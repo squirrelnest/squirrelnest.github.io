@@ -1,142 +1,27 @@
 <section class="no-padding" id="portfolio">
-    <div class="container-fluid">
+    <div class="container-fluid portfolio-container">
         <div class="row no-gutter">
+        {% for project in site.posts %}
             <div class="col-lg-4 col-sm-6">
-                <a href="https://player.vimeo.com/video/150728468?title=0&byline=0&portrait=0" class="portfolio-box">
-                    <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                <a href="https://player.vimeo.com/video/{{ project.vimeo-id }}?title=0&byline=0&portrait=0" class="portfolio-box">
+                  {% if project.vimeo-thumbnail %}
+                  <img src="{{ project.vimeo-thumbnail }}" class="img-responsive" alt="">
+                  {% else %}
+                  <img src="/img/portfolio/{{ project.thumbnail }}" class="img-responsive" alt="">
+                  {% endif %}
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Broadcast Sports Graphics
+                                {{ project.title }}
                             </div>
                             <div class="project-name">
-                                RotorSports
+                                {{ project.client }}
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                  <a href="https://player.vimeo.com/video/161695331?title=0&byline=0&portrait=0" class="portfolio-box">
-                    <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Explainer Animation
-                            </div>
-                            <div class="project-name">
-                                How to Make an Ice Cream Sandwich
-                            </div>
-                        </div>
-
-                    </div>
-                  </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="https://player.vimeo.com/video/131690063?title=0&byline=0&portrait=0" class="portfolio-box">
-                    <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Video Editing & Motion Graphics
-                            </div>
-                            <div class="project-name">
-                                Sephora Collection
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="https://player.vimeo.com/video/131691865?title=0&byline=0&portrait=0" class="portfolio-box">
-                    <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Feature Callouts
-                            </div>
-                            <div class="project-name">
-                                ToutApp
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="https://player.vimeo.com/video/113576880?title=0&byline=0&portrait=0" class="portfolio-box">
-                    <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Infographics
-                            </div>
-                            <div class="project-name">
-                                Toyota
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="https://player.vimeo.com/video/105206713?title=0&byline=0&portrait=0" class="portfolio-box">
-                    <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                TV Commercial
-                            </div>
-                            <div class="project-name">
-                                Benefit Cosmetics
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="https://player.vimeo.com/video/107861534?title=0&byline=0&portrait=0" class="portfolio-box">
-                    <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Political Campaign
-                            </div>
-                            <div class="project-name">
-                                Storefront Political Media
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="https://player.vimeo.com/video/143207924?title=0&byline=0&portrait=0" class="portfolio-box">
-                    <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Software Mockup
-                            </div>
-                            <div class="project-name">
-                                Salesforce
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="https://player.vimeo.com/video/143207924?title=0&byline=0&portrait=0" class="portfolio-box">
-                    <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Animated Explainer
-                            </div>
-                            <div class="project-name">
-                                Gun Control in America
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+        {% endfor %}
         </div>
     </div>
 </section>

@@ -1,0 +1,7 @@
+---
+vimeo-id: 161695331
+vimeo-thumbnail: https://i.vimeocdn.com/video/563988194_1280.jpg
+thumbnail: 2.jpg
+title: Explainer Animation
+client: Google
+---
