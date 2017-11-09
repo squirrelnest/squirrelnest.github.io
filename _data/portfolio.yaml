@@ -1,3 +1,9 @@
+- vimeo-id: 213596067
+  vimeo-thumbnail: https://i.vimeocdn.com/video/629858217_1280.jpg
+  thumbnail: 4.jpg
+  title: Social Media Ads
+  client: Kat Von D.
+
 - vimeo-id: 161695331
   vimeo-thumbnail: https://i.vimeocdn.com/video/563988194_1280.jpg
   thumbnail: 2.jpg
@@ -56,9 +62,15 @@
   thumbnail: 4.jpg
   title: Real Estate
   client: Collier's International
-  
+
 - vimeo-id: 213596067
   vimeo-thumbnail: https://i.vimeocdn.com/video/629858217_1280.jpg
   thumbnail: 4.jpg
   title: Social Media Ads
   client: Kat Von D.
+
+- vimeo-id: 229358434
+  vimeo-thumbnail: https://i.vimeocdn.com/video/649650167_1560x878.webp
+  thumbnail: 4.jpg
+  title: OMEN Splash Screen
+  client: Hewlett-Packard Inc.
