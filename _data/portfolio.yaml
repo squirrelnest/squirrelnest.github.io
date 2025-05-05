@@ -4,11 +4,17 @@
   title: Social Media Ads
   client: Kat Von D.
 
-- vimeo-id: 161695331
-  vimeo-thumbnail: https://i.vimeocdn.com/video/563988194-1a395f59f40a6b3f83f2d14adc7f875bdc1269e686d0c01f58b33f3cec55aeba-d?mw=2200&mh=1240&q=70
+- vimeo-id: 229358434
+  vimeo-thumbnail: https://i.vimeocdn.com/video/649650167-e8f2d35808bd2755a0f4a9322bf209008f616850cbc1d828422a7d12e3d0a615-d?mw=3000&mh=857&q=70
+  thumbnail: 4.jpg
+  title: OMEN Splash Screen
+  client: Hewlett-Packard Inc.
+
+- vimeo-id: 143207924
+  vimeo-thumbnail: https://i.vimeocdn.com/video/540722032-733bd64b73bf2fb5822a06b3164f6d6113e753db38772502a48ff5a73b8fdcb8-d?mw=2000&mh=1127&q=70
   thumbnail: 2.jpg
-  title: Explainer Animation
-  client: Google
+  title: UI/UX Motion Design
+  client: Salesforce
 
 - vimeo-id: 113576880
   vimeo-thumbnail: https://i.vimeocdn.com/video/498948666-85697ca7278585009a3a85213ce38227f20406a6fcb0504a8af5c95fe3161160-d?mw=2000&mh=1127&q=70
@@ -22,16 +28,16 @@
   title: TV Commercial
   client: Benefit Cosmetics
 
+- vimeo-id: 161695331
+  vimeo-thumbnail: https://i.vimeocdn.com/video/563988194-1a395f59f40a6b3f83f2d14adc7f875bdc1269e686d0c01f58b33f3cec55aeba-d?mw=2200&mh=1240&q=70
+  thumbnail: 2.jpg
+  title: Explainer Animation
+  client: Google
+
 - vimeo-id: 131709425
   vimeo-thumbnail: https://i.vimeocdn.com/video/627381571-63e10e9f458b154a543d05e5079fc41dac6f3572c70ec09cdd4f2365f70001a5-d?mw=2000&mh=1127&q=70
-  title: UI/UX Mockup
+  title: Software Concept Mockup
   client: Nissan
-
-- vimeo-id: 143207924
-  vimeo-thumbnail: https://i.vimeocdn.com/video/540722032-733bd64b73bf2fb5822a06b3164f6d6113e753db38772502a48ff5a73b8fdcb8-d?mw=2000&mh=1127&q=70
-  thumbnail: 2.jpg
-  title: Software Mockup
-  client: Salesforce
 
 - vimeo-id: 150728468
   vimeo-thumbnail: https://i.vimeocdn.com/video/550285229-3d6f7515ab6f022901e1d8023a48e58922e4bc9e5be3c7626c8c6e9b08652c19-d?mw=2000&mh=1127&q=70
@@ -62,9 +68,3 @@
   thumbnail: 4.jpg
   title: Real Estate
   client: Collier's International
-
-- vimeo-id: 229358434
-  vimeo-thumbnail: https://i.vimeocdn.com/video/649650167-e8f2d35808bd2755a0f4a9322bf209008f616850cbc1d828422a7d12e3d0a615-d?mw=3000&mh=857&q=70
-  thumbnail: 4.jpg
-  title: OMEN Splash Screen
-  client: Hewlett-Packard Inc.
