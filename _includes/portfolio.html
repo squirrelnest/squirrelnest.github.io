@@ -3,6 +3,7 @@
         <div class="row no-gutter">
         {% for project in site.data.portfolio %}
             <div class="col-lg-4 col-sm-6">
+            {% if project.vimeo-thumbnail %}
                 <a href="https://player.vimeo.com/video/{{ project.vimeo-id }}?title=0&byline=0&portrait=0" class="portfolio-box">
                   {% if project.vimeo-thumbnail %}
                   <img src="{{ project.vimeo-thumbnail }}" class="img-responsive" alt="">
@@ -20,6 +21,25 @@
                         </div>
                     </div>
                 </a>
+            {% else if project.youtube-thumbnail %}
+                  <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src={{ project.youtube-id }} style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
+                  {% if project.youtube-thumbnail %}
+                  <img src="{{ project.youtube-thumbnail }}" class="img-responsive" alt="">
+                  {% else %}
+                  <img src="/img/portfolio/{{ project.thumbnail }}" class="img-responsive" alt="">
+                  {% endif %}
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                {{ project.title }}
+                            </div>
+                            <div class="project-name">
+                                {{ project.client }}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            {% endif %}
             </div>
         {% endfor %}
         </div>
