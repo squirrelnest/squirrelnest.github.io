@@ -4,17 +4,17 @@
   title: Social Media Ads
   client: Kat Von D.
 
-- vimeo-id: 229358434
-  vimeo-thumbnail: https://i.vimeocdn.com/video/649650167-e8f2d35808bd2755a0f4a9322bf209008f616850cbc1d828422a7d12e3d0a615-d?mw=3000&mh=857&q=70
-  thumbnail: 4.jpg
-  title: OMEN Splash Screen
-  client: Hewlett-Packard Inc.
-
 - vimeo-id: 143207924
   vimeo-thumbnail: https://i.vimeocdn.com/video/540722032-733bd64b73bf2fb5822a06b3164f6d6113e753db38772502a48ff5a73b8fdcb8-d?mw=2000&mh=1127&q=70
   thumbnail: 2.jpg
   title: UI/UX Motion Design
   client: Salesforce
+
+- vimeo-id: 229358434
+  vimeo-thumbnail: https://i.vimeocdn.com/video/649650167-e8f2d35808bd2755a0f4a9322bf209008f616850cbc1d828422a7d12e3d0a615-d?mw=3000&mh=857&q=70
+  thumbnail: 4.jpg
+  title: OMEN Splash Screen
+  client: Hewlett-Packard Inc.
 
 - vimeo-id: 113576880
   vimeo-thumbnail: https://i.vimeocdn.com/video/498948666-85697ca7278585009a3a85213ce38227f20406a6fcb0504a8af5c95fe3161160-d?mw=2000&mh=1127&q=70
@@ -27,6 +27,24 @@
   thumbnail: 6.jpg
   title: TV Commercial
   client: Benefit Cosmetics
+
+- vimeo-id: 102694189
+  vimeo-thumbnail: https://i.vimeocdn.com/video/484760025-c98fb2b86b0259656fd2a2f39e224460827eaa2a04ba25d2edc8f3e33d88a5ee-d?mw=2000&mh=1127&q=70
+  thumbnail: 3.jpg
+  title: Animated Explainer
+  client: Gun Control in America
+
+- vimeo-id: 100467382
+  vimeo-thumbnail: https://i.vimeocdn.com/video/481964528-b9c3850cce7ec49f27f247f1dfffb95b86b44ca676324ec66f08c81a51297485-d?mw=2000&mh=1127&q=70
+  thumbnail: 1.jpg
+  title: Video Editing
+  client: John Cena
+
+- vimeo-id: 214266044
+  vimeo-thumbnail: https://i.vimeocdn.com/video/630697200-101ae2b465d066a3d7b3ccc7338636a2e668f938775ec38a9eedb79edb8089cf-d?mw=2000&mh=1127&q=70
+  thumbnail: 4.jpg
+  title: Real Estate
+  client: Collier's International
 
 - vimeo-id: 161695331
   vimeo-thumbnail: https://i.vimeocdn.com/video/563988194-1a395f59f40a6b3f83f2d14adc7f875bdc1269e686d0c01f58b33f3cec55aeba-d?mw=2200&mh=1240&q=70
@@ -51,20 +69,14 @@
   title: Video Editing &amp; Motion Graphics
   client: Sephora
 
-- vimeo-id: 102694189
-  vimeo-thumbnail: https://i.vimeocdn.com/video/484760025-c98fb2b86b0259656fd2a2f39e224460827eaa2a04ba25d2edc8f3e33d88a5ee-d?mw=2000&mh=1127&q=70
-  thumbnail: 3.jpg
-  title: Animated Explainer
-  client: Gun Control in America
-
 - vimeo-id: 131691865
   vimeo-thumbnail: https://i.vimeocdn.com/video/524058625-430a292bc9a736d92b98d0e07ef59bdb143c3c44ee6bb29a9a7421401753e7d0-d?mw=2200&mh=1240&q=70
   thumbnail: 4.jpg
   title: Feature Callouts
   client: ToutApp
 
-- vimeo-id: 214266044
-  vimeo-thumbnail: https://i.vimeocdn.com/video/630697200-101ae2b465d066a3d7b3ccc7338636a2e668f938775ec38a9eedb79edb8089cf-d?mw=2000&mh=1127&q=70
-  thumbnail: 4.jpg
-  title: Real Estate
-  client: Collier's International
+- vimeo-id: 147538875
+  vimeo-thumbnail: https://i.vimeocdn.com/video/546232340-742e70c6cfd5b88c97be07d75561b4b5980c9c0ba511347d59cdbdbb55e2d813-d?mw=2200&mh=1240&q=70
+  thumbnail: 1.jpg
+  title: Video Editing &amp; Motion Graphics
+  client: Kilroy Realty
